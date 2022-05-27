@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js" type="module"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <word-count>test</word-count>
+  <popup-info
+    data-text="Your card validation code (CVC) is an extra security feature - it is the last 3 or 4 numbers on the back of your card.">
+  </popup-info>
+
+  <h1>Expanding list web component</h1>
+  <ul is="expanding-list">
+    <li>UK
+      <ul>
+        <li>Yorkshire
+          <ul>
+            <li>Leeds
+              <ul>
+                <li>Train station</li>
+                <li>Town hall</li>
+                <li>Headrow</li>
+              </ul>
+            </li>
+            <li>Bradford</li>
+            <li>Hull</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>USA
+      <ul>
+        <li>California
+          <ul>
+            <li>Los Angeles</li>
+            <li>San Francisco</li>
+            <li>Berkeley</li>
+          </ul>
+        </li>
+        <li>Nevada</li>
+        <li>Oregon</li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>Not</li>
+    <li>an</li>
+    <li>expanding</li>
+    <li>list</li>
+  </ul>
+  <h1>Life cycle callbacks test</h1>
+
+  <div>
+    <button class="add">Add custom-square to DOM</button>
+    <button class="update">Update attributes</button>
+    <button class="remove">Remove custom-square from DOM</button>
+  </div>
+</body>
+
+</html>
